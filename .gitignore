@@ -1,0 +1,140 @@
+# Python
+__pycache__/
+*.py[cod]
+<<<<<<< HEAD
+*.so
+=======
+*$py.class
+*.so
+.Python
+>>>>>>> eca517e1556a58759ce17df305b9ad1977d08b04
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+<<<<<<< HEAD
+# IDE
+=======
+# IDE / editors
+>>>>>>> eca517e1556a58759ce17df305b9ad1977d08b04
+.vscode/
+.idea/
+*.code-workspace
+
+<<<<<<< HEAD
+# OS
+=======
+# OS files
+>>>>>>> eca517e1556a58759ce17df305b9ad1977d08b04
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+<<<<<<< HEAD
+# Node / React
+=======
+# Node / React frontend
+>>>>>>> eca517e1556a58759ce17df305b9ad1977d08b04
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+<<<<<<< HEAD
+=======
+
+# Vite / npm
+>>>>>>> eca517e1556a58759ce17df305b9ad1977d08b04
+node_modules/
+dist/
+build/
+.vite/
+<<<<<<< HEAD
+
+# npm logs
+=======
+>>>>>>> eca517e1556a58759ce17df305b9ad1977d08b04
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test / coverage
+.coverage
+htmlcov/
+<<<<<<< HEAD
+coverage/
+.nyc_output/
+
+=======
+.pytest_cache/
+coverage/
+.nyc_output/
+
+# Local model/cache files
+*.pkl
+*.pickle
+*.joblib.tmp
+
+>>>>>>> eca517e1556a58759ce17df305b9ad1977d08b04
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+<<<<<<< HEAD
+# Local model/cache files
+*.pkl
+*.pickle
+*.joblib.tmp
+
+# Generated/local files
+=======
+# Local uploads / generated files
+>>>>>>> eca517e1556a58759ce17df305b9ad1977d08b04
+uploads/
+outputs/
+tmp/
+temp/
+
+# Python tooling
+pip-wheel-metadata/
+
+<<<<<<< HEAD
+# Secrets
+*.pem
+*.key
+credentials.json
+service-account.json
+=======
+# Secrets / credentials
+*.pem
+*.key
+credentials.json
+service-account.json
+>>>>>>> eca517e1556a58759ce17df305b9ad1977d08b04
